@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functionCalling</title>
+    <style></style> <script></script>
+</head>
+<body>
+    <script>
+        function a()
+        {
+            return 10;
+        }
+        function b()
+        {
+            return 20;
+        }
+        function c( x,y)
+        {
+            return x+y;
+        }
+        let z= c(a(),b());
+        console.log(z);
+
+        //new function defenation
+        function q()
+        {
+            return 10;
+
+        }
+        function r()
+        {
+            return 25;
+        }
+        function s(r,t){
+            return r * t;
+        }
+        let u= s(q(),r());
+        console.log(u);
+
+        // new nested function calling 
+
+        function rat()
+        {
+            return 25;
+        }
+        function mat()
+        {
+            return 80;
+        }
+        function cat(f,g)
+        {
+            return f*g;
+        }
+        let yes=cat(rat(),mat());
+        console.log(yes);
+
+        //new function defenation
+
+        function hari()
+        {
+            return 55;
+        }
+        function om()
+        {
+            return 20;
+        }
+        function tri(o,p)
+        {
+            return o-p;
+        }
+        let p=tri(hari(),om());
+        console.log(p);
+        //variable calling under function
+        function add(t1,t2)
+        {
+           return t1+t2;
+        
+        }
+        let up=add(25,om());
+        console.log(up);
+
+        //sum operation
+         function newAdd(a,b)
+         {
+            console.log(a+b);
+         }
+         newAdd(15,78);
+
+            //subtraction function
+
+            function minus(h1,h2)
+            {
+                console.log(h1-h2);
+            }
+            minus(78,5);
+            //multiplication
+
+            function Multi(k,h)
+            {
+                console.log(k*h);
+            }
+            Multi(45,3);
+            //division
+
+            function div(y6,y7){
+                console.log(y6/y7);
+            }
+            div(45,2);
+            //modulas
+
+            function modul(c,v){
+                console.log(c%v);
+            }
+            modul(45,2);
+            //calling function under function
+
+            function c1()
+            {
+                return 45;
+            }
+            function c2()
+            {
+                return 45;
+            }
+
+            function c3(q1,q2)
+            {
+                return q1+q2;
+            }
+            let g=c3(c1(),c2());
+            console.log(g);
+
+    </script>
+</body>
+</html>
